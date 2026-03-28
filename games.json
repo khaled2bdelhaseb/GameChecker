@@ -1,8 +1,12 @@
 [
   {
     "name": "GTA V",
-    "min": { "cpu": "i3", "gpu": "GTX 660", "ram": 4 },
-    "rec": { "cpu": "i5", "gpu": "GTX 1060", "ram": 8 }
+    "min": {  "cpu": ["Intel Core i3-2100", "AMD FX-6300"],
+      "gpu": ["NVIDIA GTX 660", "AMD HD 7870"],
+      "ram": 4 },
+    "rec": {  "cpu": ["Intel Core i5-3470", "AMD FX-8350"],
+      "gpu": ["NVIDIA GTX 1060", "AMD RX 580"],
+      "ram": 8 }
   },
   {
     "name": "Cyberpunk 2077",
@@ -13,5 +17,15 @@
     "name": "Red Dead Redemption 2",
     "min": { "cpu": "i5", "gpu": "GTX 1060", "ram": 8 },
     "rec": { "cpu": "i7", "gpu": "RTX 2060", "ram": 12 }
+  },
+
+   {
+    "name": "Crimson Desert",
+    "min": {  "cpu": ["i5-8500", " Ryzen 5 2600X"],
+      "gpu": ["GTX 1060", "RX 6500 XT"],
+      "ram": 16},
+    "rec": {  "cpu": ["i5-11600K", "Ryzen 5 5600"],
+      "gpu": ["RTX 2080", "RX 6700 XT"],
+      "ram": 16 }
   }
 ]
