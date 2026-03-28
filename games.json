@@ -1,24 +1,23 @@
- 
- [
+[
   {
     "name": "GTA V",
-    "min": {  "cpu": "i3","gpu":"GTX 660", "ram": 4 },
-    "rec": {  "cpu": "i5","gpu": "GTX 1060", "ram": 8 }
+    "min": {  "cpu": "i3","gpu":"GTX 1050", "ram": 4 },
+    "rec": {  "cpu": "i5","gpu": "RTX 3070 Ti", "ram": 8 }
   },
   {
     "name": "Cyberpunk 2077",
     "min": { "cpu": "i5", "gpu": "GTX 1050", "ram": 8 },
-    "rec": { "cpu": "i7", "gpu": "RTX 2060", "ram": 16 }
+    "rec": { "cpu": "i7", "gpu": "RTX 3070 Ti", "ram": 16 }
   },
   {
     "name": "Red Dead Redemption 2",
-    "min": { "cpu": "i5", "gpu": "GTX 1060", "ram": 8 },
-    "rec": { "cpu": "i7", "gpu": "RTX 2060", "ram": 12 }
+    "min": { "cpu": "i5", "gpu": "GTX 1050", "ram": 8 },
+    "rec": { "cpu": "i7", "gpu": "RTX 3070 Ti", "ram": 12 }
   },
  
   {
     "name": "Crimson Desert",
-    "min": { "cpu": "i5", "gpu": "GTX 1060", "ram": 16 },
-    "rec": { "cpu": "i5-11600K", "gpu": "RTX 2080", "ram": 16 }
+    "min": { "cpu": "i5", "gpu": "GTX 1050", "ram": 16 },
+    "rec": { "cpu": "i5", "gpu": "RTX 3070 Ti", "ram": 16 }
   }
 ]
