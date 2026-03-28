@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🎮 هل جهازك يشغلها؟</h1>
+
+  <label>CPU:</label>
+  <select id="cpu">
+    <option value="i3">Intel i3</option>
+    <option value="i5">Intel i5</option>
+    <option value="i7">Intel i7</option>
+    <option value="i9">Intel i9</option>
+  </select>
+
+  <label>GPU:</label>
+  <select id="gpu">
+    <option value="GTX 660">GTX 660</option>
+    <option value="GTX 1050">GTX 1050</option>
+    <option value="GTX 1060">GTX 1060</option>
+    <option value="GTX 1660">GTX 1660</option>
+    <option value="RTX 2060">RTX 2060</option>
+  </select>
+
+  <label>RAM:</label>
+  <select id="ram">
+    <option value="4">4 GB</option>
+    <option value="8">8 GB</option>
+    <option value="12">12 GB</option>
+    <option value="16">16 GB</option>
+  </select>
+
+  <br><br>
+  <button onclick="checkGames()">🔍 تحقق</button>
+
+  <div class="results">
+    <h2>🔥 تشغيل كويس</h2>
+    <ul id="high"></ul>
+
+    <h2>⚖️ تشغيل متوسط</h2>
+    <ul id="medium"></ul>
+
+    <h2>🐢 تشغيل ضعيف</h2>
+    <ul id="low"></ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

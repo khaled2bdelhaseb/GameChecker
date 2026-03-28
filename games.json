@@ -1,0 +1,17 @@
+[
+  {
+    "name": "GTA V",
+    "min": { "cpu": "i3", "gpu": "GTX 660", "ram": 4 },
+    "rec": { "cpu": "i5", "gpu": "GTX 1060", "ram": 8 }
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "min": { "cpu": "i5", "gpu": "GTX 1050", "ram": 8 },
+    "rec": { "cpu": "i7", "gpu": "RTX 2060", "ram": 16 }
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "min": { "cpu": "i5", "gpu": "GTX 1060", "ram": 8 },
+    "rec": { "cpu": "i7", "gpu": "RTX 2060", "ram": 12 }
+  }
+]
